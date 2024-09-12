@@ -32,12 +32,12 @@ console.log("Loose inequality:" , favNum1 != favNum2);
 
 // AND
 console.log("AND:" , favNum1 < favNum2 && favNum1 < favNum2);
-console.log("AND:" , favNum1 > favNum2 && favNum1 > favNum2);
+console.log("AND:" , favNum1 > favNum2 && favNum1 === 8);
 
 // OR
 console.log("OR:" , favNum1 > favNum2 || favNum1 < favNum2);
-console.log("OR:" , favNum1 < favNum2 || favNum1 > favNum2);
+console.log("OR:" , favNum1 > favNum2 || favNum1 === 18);
 
 // NOT
-console.log("NOT:" , !favNum1 <  favNum2);
-console.log("NOT:" , !favNum1 > favNum2);
+console.log("NOT:" , !(favNum1 ===  favNum2));
+
