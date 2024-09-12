@@ -1,3 +1,4 @@
+// Store numbers in variables.
 let favNum1 = 8;
 let favNum2 = 18;
 
